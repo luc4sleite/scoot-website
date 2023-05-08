@@ -22,7 +22,11 @@ export default function Menu() {
         )}
       </button>
       <a href="/">
-        <img src={logo} alt="Scoot Logo" />
+        <img 
+          className="w-16"
+          src={logo} 
+          alt="Scoot Logo" 
+        />
       </a>
       {isOpen && (
         <aside className="flex flex-col h-screen justify-between absolute left-0 top-[61px] bg-secondary w-2/3 py-8 z-10">

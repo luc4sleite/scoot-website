@@ -14,7 +14,7 @@ export default function Menu() {
 
   return (
     <nav className="w-screen flex items-center justify-center p-4 gap-4 relative">
-      <button onClick={toggleMenu} className="absolute left-6">
+      <button onClick={toggleMenu} className="absolute left-8">
         {toggleMenu ? (
           <img src={hamburger} alt="Menu hamburger" />
         ) : (
@@ -25,7 +25,7 @@ export default function Menu() {
         <img src={logo} alt="Scoot Logo" />
       </a>
       {isOpen && (
-        <aside className="flex flex-col justify-between absolute left-0 top-16 bg-secondary w-2/3 h-screen py-8">
+        <aside className="flex flex-col h-screen justify-between absolute left-0 top-[61px] bg-secondary w-2/3 py-8 z-10">
           <ul>
             <MenuItem title="About" />
             <MenuItem title="Location" />

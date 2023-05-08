@@ -5,12 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      'primary': '#E5ECF4',
-      'secondary': '#333A44',
-      'yellow': '#FCB72B',
-    }
+    extend: {
+      colors: {
+        'primary': '#E5ECF4',
+        'secondary': '#333A44',
+        'yellow': '#FCB72B',
+      },
+      fontFamily: {
+        'lexend': ['Lexend Deca', 'sans-serif'],
+      },
+      backgroundImage: {
+        'home-hero-mobile': "url('./src/assets/images/home-hero-mobile.jpg')",
+      }
+    },
   },
   plugins: [],
 }

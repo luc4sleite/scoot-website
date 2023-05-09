@@ -1,9 +1,9 @@
-import Menu from "../Menu";
+import Navbar from "../Navbar";
 
 export default function Header() {
     return(
         <header className="w-screen">
-                <Menu />
+                <Navbar />
         </header>
     )
 }

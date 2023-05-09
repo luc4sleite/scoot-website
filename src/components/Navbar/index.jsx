@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-screen h-[64px] md:h-[96px] flex items-center justify-center p-4 gap-4 relative">
-      <div className="md:hidden sm:fixed flex h-[64px] items-center justify-center bg-white w-screen">
+      <div className="md:hidden fixed flex h-[64px] items-center justify-center bg-white w-screen">
         <button onClick={toggleMenu} className="absolute left-8 top-6 block md:hidden">
           {!isOpen ? (
             <img src={hamburger} alt="Menu hamburger" />
@@ -40,7 +40,7 @@ export default function Navbar() {
           </ul>
           <Button name="Get Scootin" />
       </aside>
-      <div className="hidden md:flex md:fixed w-screen justify-between items-center md:px-8 lg:px-48 m-auto bg-white">
+      <div className="hidden md:flex md:fixed w-screen h-[92px] justify-between items-center md:px-8 lg:px-48 m-auto bg-white">
         <a href="/">
           <img className="w-[107.82px]" src={logo} alt="Scoot Logo" />
         </a>

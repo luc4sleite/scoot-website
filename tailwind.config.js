@@ -18,6 +18,9 @@ export default {
         'home-hero-mobile': "url('./src/assets/images/home-hero-mobile.jpg')",
         'home-hero-tablet': "url('./src/assets/images/home-hero-tablet.jpg')",
         'home-hero-desktop': "url('./src/assets/images/home-hero-desktop.jpg')",
+      },
+      gridTemplateColumns: {
+        'home-features': 'auto 1fr',
       }
     },
   },

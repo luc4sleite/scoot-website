@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-screen h-[64px] md:h-[96px] flex items-center justify-center p-4 gap-4 relative">
+    <nav className="w-screen h-[64px] md:h-[96px] flex items-center justify-center p-4 gap-4 relative z-40">
       <div className="md:hidden fixed flex h-[64px] items-center justify-center bg-white w-screen">
         <button onClick={toggleMenu} className="absolute left-8 top-6 block md:hidden">
           {!isOpen ? (

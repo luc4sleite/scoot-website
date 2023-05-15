@@ -12,6 +12,7 @@ import Banner from "../../components/Banner";
 import Feature from "../../components/Feature";
 import Header from "../../components/Header";
 import Benefit from '../../components/Benefit';
+import Download from '../../components/Download/Index';
 
 export default function Home() {
   return (
@@ -65,6 +66,9 @@ export default function Home() {
           buttonName="Learn More"
         />
       </div>
+      <footer>
+        <Download />
+      </footer>
       
     </>
   );

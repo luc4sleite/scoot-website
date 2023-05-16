@@ -8,9 +8,8 @@ import telemetry from '../../assets/images/telemetry.jpg';
 import nearYou from '../../assets/images/near-you.jpg';
 import payments from '../../assets/images/payments.jpg';
 
-import Banner from "../../components/Banner";
+import MainBanner from "../../components/MainBanner";
 import Feature from "../../components/Feature";
-import Header from "../../components/Header";
 import Benefit from '../../components/Benefit';
 import Download from '../../components/Download/Index';
 import Footer from '../../components/Footer';
@@ -18,8 +17,7 @@ import Footer from '../../components/Footer';
 export default function Home() {
   return (
     <>
-      <Header />
-      <Banner />
+      <MainBanner />
       <img 
         className='hidden md:block lg:hidden absolute top-[746px] left-[140px] z-0'
         src={rectangle} 

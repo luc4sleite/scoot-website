@@ -34,9 +34,9 @@ export default function Navbar() {
           }
       >
           <ul className="text-primary">
-            <MenuItem title="About" />
-            <MenuItem title="Location" />
-            <MenuItem title="Careers" />
+            <MenuItem title="About" path="about"/>
+            <MenuItem title="Location" path="location"/>
+            <MenuItem title="Careers" path="careers"/>
           </ul>
           <Button name="Get Scootin" />
       </aside>

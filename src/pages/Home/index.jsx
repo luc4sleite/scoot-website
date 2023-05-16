@@ -11,8 +11,7 @@ import payments from '../../assets/images/payments.jpg';
 import MainBanner from "../../components/MainBanner";
 import Feature from "../../components/Feature";
 import Benefit from '../../components/Benefit';
-import Download from '../../components/Download/Index';
-import Footer from '../../components/Footer';
+import Button from '../../components/Button';
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
         src={rectangleHorizontal}
         alt=""
       />
-      <div className='relative z-20 mb-[120px] lg:flex lg:flex-row lg:ml-[165px] lg:gap-x-[30px] lg:mt-[160px]'>
+      <div className='relative z-20 lg:flex lg:flex-row lg:ml-[165px] lg:gap-x-[30px] lg:mt-[160px]'>
         <Feature 
           icon={locate} 
           title="Locate with app" 
@@ -45,29 +44,26 @@ export default function Home() {
           description="Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps."
         />
       </div>
-      <div className='flex flex-col items-center gap-y-[120px] mb-[120px]'>
-        <Benefit 
+      <div className='flex flex-col items-center mb-[120px]'>
+        <Benefit
           image={telemetry} 
           title="Easy to use riding telemetry" 
           description="The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
-          buttonName="Learn More"
         />
+        <Button name="Learn More"/>
         <Benefit
           image={nearYou}
           title="Coming to a city near you"
           description="Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year."
-          buttonName="Learn More"
         />
+        <Button name="Learn More"/>
         <Benefit
           image={payments}
           title="Zero hassle payments"
           description="Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
-          buttonName="Learn More"
         />
+        <Button name="Learn More"/>
       </div>
-      <Download />
-      <Footer />
-      
     </>
   );
 }

@@ -5,6 +5,7 @@ import betterLiving from "../../assets/images/better-living.jpg";
 import Banner from "../../components/Banner";
 import Benefit from "../../components/Benefit";
 import Values from "../../components/Values";
+import FAQ from "../../components/FAQ";
 
 export default function About() {
   return (
@@ -25,6 +26,7 @@ export default function About() {
           />
         </div>
         <Values />
+        <FAQ />
         
     </div>
   )

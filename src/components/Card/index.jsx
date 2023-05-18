@@ -1,8 +1,8 @@
 export default function Card({image, title, number, description}) {
   return (
-    <div className="flex flex-col items-center justify-center m-auto relative w-[311px]">
+    <div className="flex flex-col items-center justify-center m-auto relative w-[311px] md:w-[457px] lg:w-[350px] ">
         <img 
-            className="rounded-full w-[240px]"
+            className="rounded-full w-[240px] md:w-[240px]"
             src={image} 
             alt="" 
         />

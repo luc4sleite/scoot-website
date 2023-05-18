@@ -11,9 +11,9 @@ export default function Dropdown({ title, text }) {
   return (
     <div
       onClick={toggleMenu}
-      className="grid grid-cols-dropdown bg-[#F2F5F9] justify-center items-center w-[311px] m-auto pl-[32px] pr-[28px] py-[32px] gap-y-[24px]"
+      className="grid grid-cols-dropdown bg-[#F2F5F9] justify-center items-center w-[311px] md:w-[689px] m-auto pl-[32px] pr-[28px] py-[32px] gap-y-[24px] hover:bg-[#FFF4DF] duration-300 cursor-pointer"
     >
-      <span className="font-mono font-bold text-[#495567] text-[18px]/[24px] tracking-[-0.803571px]">
+      <span className="font-mono font-bold text-[#495567] text-[18px]/[24px] md:text-[24px]/[28px] tracking-[-0.803571px]">
         {title}
       </span>
       <button>

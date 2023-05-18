@@ -29,7 +29,7 @@ export default {
       gridTemplateColumns: {
         'home-features': 'auto 1fr',
         'dropdown': '1fr auto',
-      }
+      },
     },
   },
   plugins: [],

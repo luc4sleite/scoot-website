@@ -7,10 +7,10 @@ import Card from "../Card";
 export default function Values() {
   return (
     <div className="flex flex-col items-center justify-center m-auto">
-      <h2 className="font-mono font-bold text-[32px] text-[#495567] mb-[64px]">
+      <h2 className="font-mono font-bold text-[32px] text-[#495567] mb-[64px] md:text-[48px]">
         Our values
       </h2>
-      <div className="flex flex-col items-center justify-center gap-y-[56px] mb-[145px]">
+      <div className="flex flex-col items-center justify-center gap-y-[56px] mb-[145px] lg:flex-row lg:gap-x-[30px]">
         <Card
           image={ourTech}
           number="01"

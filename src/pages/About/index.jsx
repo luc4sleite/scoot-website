@@ -18,11 +18,13 @@ export default function About() {
             title="Mobility for the digital era"
             description="Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
             image={digitalEra}
+            layout={'layout-one'}
           />
           <Benefit
             title="Better urban living"
             description="We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride."
             image={betterLiving}
+            layout={'layout-two'}
           />
         </div>
         <Values />

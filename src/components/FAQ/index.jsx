@@ -3,10 +3,10 @@ import Dropdown from "../Dropdown";
 export default function index() {
   return (
     <section className="flex flex-col items-center justify-center m-auto mb-[120px]">
-      <h2 className="font-mono font-bold text-[#495567] text-[32px] tracking-[-1.43px] text-center mb-[48px]">
+      <h2 className="font-mono font-bold text-[#495567] text-[32px] md:text-[48px] tracking-[-1.43px] text-center mb-[48px]">
         FAQs
       </h2>
-      <h3 className="font-mono font-bold text-[#495567] text-[24px]/[28px] tracking-[-1.07px] text-center mb-[32px]">
+      <h3 className="font-mono font-bold text-[#495567] text-[24px]/[28px] md:text-[40px]/[48px] tracking-[-1.07px] text-center mb-[32px]">
         How it works
       </h3>
       <div className="flex flex-col items-center justify-center gap-y-[16px]">
@@ -23,7 +23,9 @@ export default function index() {
           text="No, you do not need a license to ride. You can use the app without a license to ride."
         />
       </div>
-      <h3 className="font-mono font-bold text-[#495567] text-[24px]/[28px] tracking-[-1.07px] text-center mb-[32px] mt-[48px]">Safe driving</h3>
+      <h3 className="font-mono font-bold text-[#495567] text-[24px]/[28px] md:text-[40px]/[48px] tracking-[-1.07px] text-center mb-[32px] mt-[48px]">
+        Safe driving
+      </h3>
       <div className="flex flex-col items-center justify-center gap-y-[16px]">
         <Dropdown
           title="Should I wear a helmet?"
@@ -32,7 +34,7 @@ export default function index() {
         <Dropdown
           title="How about the rules & regulations?"
           text="We recommend that you read the rules and regulations before you ride."
-        /> 
+        />
         <Dropdown
           title="What if I damage my Scoot?"
           text="You can report a Scoot to the Scoot team if you want to. We will try to contact you within 24 hours."

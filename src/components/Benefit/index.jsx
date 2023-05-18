@@ -14,13 +14,13 @@ export default function Benefit({ image, title, description, buttonText, layout 
         src={image}
         alt=""
       />
-      <h1 className="font-mono font-bold text-[#495567] text-[32px] md:text-[48px]/[48px] tracking-[-1.43 px] text-center mb-[32px] w-[311px] md:w-[457px] lg:text-left lg:w-[445px] lg:mb-[24px] lg:self-end">
+      <h1 className="font-mono font-bold text-[#495567] text-[32px]/[32px] md:text-[48px]/[48px] tracking-[-1.43 px] text-center mb-[32px] w-[311px] md:w-[457px] lg:text-left lg:w-[445px] lg:mb-[24px] lg:self-end">
         {title}
       </h1>
       <p className="font-lexend text-[#939CAA] font-[15px]/[25px] text-center w-[311px] md:w-[573px] mb-[32px] lg:text-left lg:w-[445px] lg:m-0 lg:self-start">
         {description}
       </p>
-      <div className="self-start">
+      <div className="lg:self-start">
         {buttonText && <Button name={buttonText} />}
       </div>
     </div>

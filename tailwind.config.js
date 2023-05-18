@@ -22,8 +22,8 @@ export default {
         'about-hero-tablet': "url('./src/assets/images/about-hero-tablet.jpg')",
         'about-hero-desktop': "url('./src/assets/images/about-hero-desktop.jpg')",
         'careers-location-hero-mobile': "url('./src/assets/images/careers-location-hero-mobile.jpg')",
-        'careers-location-hero-tablet': "url('./src/assets/images/careers-location-hero-tablet.jpg')",
-        'careers-location-hero-desktop': "url('./src/assets/images/careers-location-hero-desktop.jpg')",
+        'careers-location-hero-tablet': "url('./src/assets/images/careers-locations-hero-tablet.jpg')",
+        'careers-location-hero-desktop': "url('./src/assets/images/careers-locations-hero-desktop.jpg')",
         'white-circles': "url('./src/assets/patterns/white-circles.svg')",
       },
       gridTemplateColumns: {

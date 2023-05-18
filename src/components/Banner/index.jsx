@@ -5,7 +5,7 @@ export default function Banner({ background, children }) {
   const bannerClasses = classNames("banner", background);
   return (
     <div
-      className={`flex md:relative items-center justify-center md:justify-start h-[160px] md:h-[200px] ${bannerClasses}`}
+      className={`flex md:relative items-center justify-center md:justify-start h-[160px] md:h-[200px] ${bannerClasses} bg-no-repeat bg-cover`}
     >
       <h1 className="text-white text-[40px] md:text-[56px] tracking-[-1.79px] font-bold md:ml-[97px] lg:ml-[165px]">
         {children}

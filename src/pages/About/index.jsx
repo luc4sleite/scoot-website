@@ -27,7 +27,7 @@ export default function About() {
             layout={'layout-two'}
           />
         </div>
-        <Values />
+        <Values title="Our values" />
         <FAQ />
         
     </div>

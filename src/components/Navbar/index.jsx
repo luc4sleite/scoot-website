@@ -28,7 +28,7 @@ export default function Navbar() {
       </div>
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black opacity-70 z-0"
+          className="fixed inset-0 bg-black opacity-70 z-10"
           onClick={toggleMenu}
         ></div>
       )}
@@ -36,7 +36,7 @@ export default function Navbar() {
           className={
             isOpen
               ? "fixed left-0 top-16 max-h-[90vh] h-full w-2/3 py-8 z-10 flex flex-col justify-between bg-secondary ease-in-out duration-300"
-              : "fixed left-[-100%] top-16 max-h-[90vh] h-full w-2/3 py-8 z-10 flex flex-col justify-between bg-secondary ease-in-out duration-300"
+              : "fixed left-[-100%] top-16 max-h-[90vh] h-full w-2/3 py-8 z-40 flex flex-col justify-between bg-secondary ease-in-out duration-300"
           }
       >
           <ul className="text-primary">

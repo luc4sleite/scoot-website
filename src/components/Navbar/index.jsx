@@ -38,16 +38,18 @@ export default function Navbar() {
             <MenuItem title="Location" path="location"/>
             <MenuItem title="Careers" path="careers"/>
           </ul>
-          <Button name="Get Scootin" />
+          <div className="mx-8">
+            <Button name="Get Scootin" />
+          </div>
       </aside>
-      <div className="hidden md:flex md:fixed md:w-screen md:h-[92px] md:mt-[32px] md:justify-between md:items-center md:px-8 lg:px-48 m-auto bg-white">
+      <div className="hidden md:flex md:fixed md:w-full md:h-[96px] md:justify-between md:items-center md:px-8 lg:px-48 m-auto bg-white">
         <a href="/">
-          <img className="w-[107.82px]" src={logo} alt="Scoot Logo" />
+          <img className="w-[107.82px] ml-[39px]" src={logo} alt="Scoot Logo" />
         </a>
         <ul className="flex text-[#939CAA]">
-          <MenuItem title="About" />
-          <MenuItem title="Location" />
-          <MenuItem title="Careers" />
+          <MenuItem title="About" path="about" />
+          <MenuItem title="Location" path="location" />
+          <MenuItem title="Careers" path="careers" />
         </ul>
         <Button name="Get Scootin" />
       </div>

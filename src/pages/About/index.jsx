@@ -10,7 +10,7 @@ import FAQ from "../../components/FAQ";
 export default function About() {
   return (
     <div>
-        <Banner background="bg-about-hero-mobile">
+        <Banner background="bg-about-hero-mobile md:bg-about-hero-tablet lg:bg-about-hero-desktop">
           About
         </Banner>
         <div className="flex flex-col items-center mb-[120px]">

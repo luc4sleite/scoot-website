@@ -26,6 +26,12 @@ export default function Navbar() {
           <img className="w-[75.5px]" src={logo} alt="Scoot Logo" />
         </a>
       </div>
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black opacity-70 z-0"
+          onClick={toggleMenu}
+        ></div>
+      )}
       <aside
           className={
             isOpen

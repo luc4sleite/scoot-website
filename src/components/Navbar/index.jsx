@@ -41,7 +41,7 @@ export default function Navbar() {
       >
           <ul className="text-primary">
             <MenuItem title="About" path="about"/>
-            <MenuItem title="Location" path="location"/>
+            <MenuItem title="Location" path="locations"/>
             <MenuItem title="Careers" path="careers"/>
           </ul>
           <div className="mx-8">
@@ -54,7 +54,7 @@ export default function Navbar() {
         </a>
         <ul className="flex text-[#939CAA]">
           <MenuItem title="About" path="about" />
-          <MenuItem title="Location" path="location" />
+          <MenuItem title="Location" path="locations" />
           <MenuItem title="Careers" path="careers" />
         </ul>
         <Button name="Get Scootin" />

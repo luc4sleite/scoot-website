@@ -13,13 +13,13 @@ export default function Footer() {
       </svg>
       <ul className="flex flex-col md:mr-[153px] lg:mr-[571px] md:flex-row md:justify-start items-center md:gap-x-[32px] text-center text-[#939CAA] font-mono font-bold text-[15px]/[25px] mt-[41.44px] gap-y-[16px] md:mt-0 md:gap-y-0">
         <li>
-          <a href="/">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="/">Location</a>
+          <a href="/locations">Locations</a>
         </li>
         <li>
-          <a href="/">Careers</a>
+          <a href="/careers">Careers</a>
         </li>
       </ul>
       <ul className="flex items-center gap-6 mt-[85px] pb-[85px] md:m-0 md:p-0">

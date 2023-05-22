@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Download from "./components/Download/Index";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Locations from "./pages/Locations";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/locations" element={<Locations />} />
       </Routes>
 
       <Download />

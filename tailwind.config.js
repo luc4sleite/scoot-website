@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         'lexend': ['Lexend Deca', 'sans-serif'],
+        'mono': ['Space Mono', 'monospace'],
       },
       backgroundImage: {
         'home-hero-mobile': "url('./src/assets/images/home-hero-mobile.jpg')",
@@ -25,6 +26,7 @@ export default {
         'careers-location-hero-tablet': "url('./src/assets/images/careers-locations-hero-tablet.jpg')",
         'careers-location-hero-desktop': "url('./src/assets/images/careers-locations-hero-desktop.jpg')",
         'white-circles': "url('./src/assets/patterns/white-circles.svg')",
+        'box': "url('./src/assets/patterns/box.png')",
       },
       gridTemplateColumns: {
         'home-features': 'auto 1fr',
